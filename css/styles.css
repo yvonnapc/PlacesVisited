@@ -1,3 +1,14 @@
 #showResults {
   display: none;
 }
+#showResults2 {
+  display: none;
+}
+.clickable {
+  color: #0088cc;
+  text-decoration: underline;
+  font-family: Arial;
+  font-size: 25px;
+  cursor: pointer;
+
+}
