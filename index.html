@@ -11,6 +11,38 @@
     <title></title>
   </head>
   <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <form id="placeCollector">
 
+            <fieldset class="form-group">
+              <label for="placeName">Name of Place:</label>
+              <input type="text" class="form-control" id="placeName">
+            </fieldset>
+            <fieldset class="form-group">
+              <label for="location">Location:</label>
+              <input type="text" class="form-control" id="placeLocation">
+            </fieldset>
+            <fieldset class="form-group">
+              <label for="season">Season:</label>
+              <input type="text" class="form-control" id="placeSeason">
+            </fieldset>
+            <fieldset class="form-group">
+              <label for="notes">Notes:</label>
+              <input type="text" class="form-control" id="placeNotes">
+            </fieldset>
+            <button type="submit" class="btn btn-success">Add</button>
+          </form>
+        </div>
+      </div>
+      <div class="container" id="showResults">
+        <h2> Places we've been</h2>
+        <ul id="listResults">
+          
+        </ul>
+
+      </div>
+    </div>
   </body>
 </html>
