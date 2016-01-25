@@ -1,6 +1,9 @@
 #showResults {
   display: none;
 }
+h1 {
+  text-align: center;
+}
 #showResults2 {
   display: none;
 }
@@ -11,4 +14,12 @@
   font-size: 25px;
   cursor: pointer;
 
+}
+
+body {
+  background-color: grey;
+}
+
+#small {
+  color: black;
 }
